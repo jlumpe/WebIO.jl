@@ -1,7 +1,11 @@
 {
   "name": "@webio/webio",
   "description": "Core implementation of the WebIO frontend.",
-  "repository": "https://github.com/JuliaGizmos/WebIO.jl",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JuliaGizmos/WebIO.jl",
+    "directory": "packages/webio"
+  },
   "author": "Travis DePrato",
   "license": "MIT",
   "version": "0.8.15",

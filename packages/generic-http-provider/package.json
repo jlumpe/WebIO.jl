@@ -1,7 +1,11 @@
 {
   "name": "@webio/generic-http-provider",
   "description": "Generic HTTP provider for WebIO.",
-  "repository": "https://github.com/JuliaGizmos/WebIO.jl",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JuliaGizmos/WebIO.jl",
+    "directory": "packages/generic-http-provider"
+  },
   "author": "Travis DePrato",
   "license": "MIT",
   "dependencies": {

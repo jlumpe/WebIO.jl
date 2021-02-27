@@ -1,7 +1,11 @@
 {
   "name": "@webio/jupyter-lab-provider",
   "description": "JupyterLab extension to enable WebIO interactivity.",
-  "repository": "https://github.com/JuliaGizmos/WebIO.jl",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JuliaGizmos/WebIO.jl",
+    "directory": "packages/jupyter-lab-provider"
+  },
   "author": "Travis DePrato",
   "license": "MIT",
   "main": "dist/labextension.js",
